@@ -31,4 +31,4 @@ jobs:
         app-name: 'efraimlorenzana'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_99a5c1e7396a4ec2964016ee4f4affcc }}
-        package: .
+        package: ./build
